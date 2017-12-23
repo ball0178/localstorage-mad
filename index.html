@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Manager</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact Manager</h1>
+    </header>
+    <main>
+        <ul class="contacts">
+            <li class="contact">
+                <span class="delete" data-key="maddy.max@waste.com"></span>
+                <h3>Mad Max</h3>
+                <p class="email">maddy.max@waste.com</p>
+                <p class="phone">020-127-9919</p>
+            </li>
+            <li class="contact">
+                <span class="delete" data-key="rick.grimes@police.gov"></span>
+                <h3>Rick Grimes</h3>
+                <p class="email">rick.grimes@police.gov</p>
+                <p class="phone">010-345-8761</p>
+            </li>
+            <li class="contact">
+                <span class="delete" data-key="jon.Snow@thewall.ca"></span>
+                <h3>Jon Snow</h3>
+                <p class="email">jon.Snow@thewall.ca</p>
+                <p class="phone">003-987-9410</p>
+            </li>
+            <li class="contact">
+                <span class="delete" data-key="Damien.Fray@gmail.com"></span>
+                <h3>Damien Fray</h3>
+                <p class="email">Damien.Fray@gmail.com</p>
+                <p class="phone">002-473-2181</p>
+            </li>
+            <li class="contact">
+                <span class="delete" data-key="gand.alf@magic.ca"></span>
+                <h3>Gandalf</h3>
+                <p class="email">gand.alf@magic.ca</p>
+                <p class="phone">001-410-5507</p>
+            </li>
+            <li class="contact">
+                <span class="delete" data-key="NarniaLion@Witch.ca"></span>
+                <h3>Narnia</h3>
+                <p class="email">NarniaLion@Witch.ca</p>
+                <p class="phone">012-001-1676</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <div class="fab"></div>
+    </footer>
+
+    <div class="overlay">&nbsp;</div>
+
+    <section class="contactform">
+        <form>
+            <input type="text" id="input-name" placeholder="Full Name" required />
+            <input type="email" id="input-email" placeholder="E-mail Address" required />
+            <input type="text" id="input-phone" placeholder="Phone number" required />
+            <button id="button-cancel">Cancel</button>
+            <button id="button-save">Add Contact</button>
+        </form>
+    </section>
+
+    <script src="js/starter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# localstorage-mad
-Localstorage assignment
